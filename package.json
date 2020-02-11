@@ -1,0 +1,19 @@
+{
+  "name": "menubarApp",
+  "version": "1.0.0",
+  "description": "menubar app built using electron",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+    "start": "electron ."
+  },
+  "author": "josh mu",
+  "license": "ISC",
+  "dependencies": {
+    "menubar": "^5.2.3"
+  },
+  "devDependencies": {
+    "electron-packager": "*",
+    "electron-prebuilt": "*"
+  }
+}
